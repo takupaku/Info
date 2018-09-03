@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+    >
+
+   <EditText
+       android:layout_marginTop="30dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="30dp"
+       android:textColor="#000"
+       android:id="@+id/editTextId"
+       android:hint="Enter Your name"
+
+
+
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:id="@+id/editPassId"
+        android:hint="Enter Your password"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20dp"
+            android:id="@+id/radioBtn1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="20dp"
+            android:id="@+id/radioBtn2"/>
+
+
+
+    </RadioGroup>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:id="@+id/spinnerId"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        ></Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/buttonId"
+        android:layout_marginTop="50dp"
+        android:text="Submit"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+
+        />
+</LinearLayout>
